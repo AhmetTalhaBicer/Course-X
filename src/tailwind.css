@@ -1,0 +1,151 @@
+/* tailwind.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  background-color: #f0f0f0; /* Arka plan rengini değiştirme */
+  opacity: 0.91; /* Saydamlık eklemek */
+  background-position: center top; /* Arka plan resminin konumunu ayarlama */
+}
+.apple-gray {
+  background-color: #808080; /* Apple'ın kullandığı gri tonu, istediğiniz tonu kullanabilirsiniz */
+  /* Diğer stillendirmeler buraya eklenebilir */
+}
+
+.search-results {
+  background-color: whitesmoke; 
+  
+}
+.text-blue{
+  color:darkslategray;
+  background-image: none;
+  background-color: white;
+}
+.background-card-color {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+
+  /* İlgili hover durumu için ek stil ve animasyon */
+  &:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Büyütme animasyonu ekleyin */
+  }
+
+  /* İçerik fontları */
+  font-family: 'Arial', sans-serif; /* Özel bir yazı tipi eklemek için burayı düzenleyin */
+}
+.text-2xl {
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+/* Başlık için stil */
+.background-card-color h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px 0;
+  font-weight: bold; /* Kalın yazı tipi */
+  text-transform: capitalize; /* İlk harfi büyük yapma */
+}
+
+/* Metin için stil */
+.background-card-color p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+/* Daha fazla buton stilini ekleyebilirsiniz */
+.background-card-color .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+.linkedin-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.linkedin-icon:hover {
+  transform: scale(1.2); /* İstediğiniz büyüklüğe ayarlayabilirsiniz */
+}
+
+
+
+.w-150 {
+  width: 175%;
+}
+
+.max-w-7xl {
+  max-width: 70rem;
+}
+
+.max-w-screen-lg {
+  max-width: 800px;
+  max-height: 400px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.py-1 {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.course-image {
+  margin-top: 20px;
+  width: 200px; /* Tüm görselleri yatayda genişliği aynı olacak şekilde ölçekler */
+  height: auto; /* Orantılı olarak yüksekliği otomatik ayarlar */
+}
+
+.course-image-container {
+  display: flex;
+  justify-content: center; /* Yatayda ortala */
+  align-items: center; /* Dikeyde ortala */
+  height: 100%; /* Dikkat: Üst sarmalayıcı yüksekliği ayarlayın */
+}
+
+.text-lg {
+  font-size: 1.325rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+}
+
+/* Buraya ek CSS düzenlemelerinizi ekleyebilirsiniz. */
+
+/* Örneğin, kurs kartları için özel stil eklemek isterseniz: */
+.course-card {
+  /* Özel kart stiliniz */
+}
+
+/* Sepet için stil eklemek isterseniz: */
+.shopping-cart {
+  /* Özel sepet stiliniz */
+}
+
+/* Ve diğer özelleştirmelerinizi burada ekleyebilirsiniz. */
+
