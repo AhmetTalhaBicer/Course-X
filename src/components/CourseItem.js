@@ -1,5 +1,4 @@
 import React, { useState } from 'react'; // useState'ı içe aktar
-import courses from "../data/courses";
 
 function CourseItem({ course, addToCart }) {
   const [purchasedCourses, setPurchasedCourses] = useState([]); // Satın alınan kursların id'lerini tutan dizi
